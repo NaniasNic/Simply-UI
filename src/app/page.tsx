@@ -1,3 +1,4 @@
+import { Features } from "@/components/Features"
 import { Header } from "@/components/Header"
 import { HeroImage } from "@/components/HeroImage"
 
@@ -11,7 +12,7 @@ export default function Home() {
       <HeroImage />
 
       {/* Features */}
-      <h1>Features</h1>
+      <Features />
 
       {/* Primary Content */}
 
