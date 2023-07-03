@@ -4,6 +4,7 @@ import { Features } from "@/components/Features"
 import { PrimaryContent } from "@/components/PrimaryContent"
 import { SecondaryContent } from "@/components/SecondaryContent"
 import { CallToAction } from "@/components/CallToAction"
+import { Footer } from "@/components/Footer"
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
       <CallToAction />
 
       {/* Footer */}
-      <h1>Footer</h1>
+      <Footer />
     </main>
   )
 }
