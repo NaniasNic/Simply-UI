@@ -2,7 +2,7 @@ import { PlayCircle } from "lucide-react";
 
 export function PrimaryContent() {
     return (
-        <main className="flex flex-col gap-8 justify-center items-center px-48">
+        <main className="flex flex-col gap-8 justify-center items-center px-48 py-[60px]">
             <h1 className="text-5xl font-bold uppercase">Featured Content</h1>
             
             <hr className="w-80 border-b-2 border-black" />

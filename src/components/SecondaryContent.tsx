@@ -1,6 +1,6 @@
 export function SecondaryContent() {
     return (
-        <main className="flex h-[673px] gap-10 justify-center items-center">
+        <main className="flex py-[60px] px-0 gap-10 justify-center items-center">
             <div className="flex bg-[url('/article-image-1.jpg')] bg-cover items-center border w-[500px] h-[300px] gap-5">
                 <div className="flex w-[230px] h-full bg-white/95 gap-4 flex-col justify-center items-center p-5">
                     <h1 className="text-4xl text-center font-bold">Secondary Content</h1>

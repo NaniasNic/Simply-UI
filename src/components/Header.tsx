@@ -1,6 +1,6 @@
 export function Header() {
     return (
-        <header className="w-full h-20 flex items-center justify-around">
+        <header className="w-full h-[120px] flex items-center justify-around">
             <div>
                 <h1 className="text-5xl select-none">
                     Simply
