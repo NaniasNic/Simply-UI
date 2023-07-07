@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export function Features() {
     return (
-        <main className="flex justify-center items-center gap-10">
-            <div className="flex flex-col my-[80px] justify-center items-center gap-5">
+        <main className="flex justify-center items-center gap-10 max-[800px]:flex-col max-[800px]:gap-5 max-[800px]:pt-8">
+            <div className="flex flex-col my-[80px] justify-center items-center gap-5 max-[800px]:my-0">
                 <Image src='/features-icon-1.png' alt="" width={100} height={100} />
 
                 <h1 className="uppercase font-bold">Easy to edit</h1>
@@ -16,7 +16,7 @@ export function Features() {
                 </p>
             </div>
 
-            <div className="flex flex-col my-[80px] justify-center items-center gap-5">
+            <div className="flex flex-col my-[80px] justify-center items-center gap-5 max-[800px]:my-0">
                 <Image src='/features-icon-2.png' alt="" width={100} height={100} />
 
                 <h1 className="uppercase font-bold">Layered psd</h1>
@@ -29,7 +29,7 @@ export function Features() {
                 </p>
             </div>
             
-            <div className="flex flex-col my-[80px] justify-center items-center gap-5">
+            <div className="flex flex-col my-[80px] justify-center items-center gap-5 max-[800px]:my-0">
                 <Image src='/features-icon-3.png' alt="" width={100} height={100} />
 
                 <h1 className="uppercase font-bold">Ready to go</h1>
