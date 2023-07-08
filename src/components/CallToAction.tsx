@@ -1,9 +1,9 @@
 export function CallToAction() {
     return (
-        <main className="flex flex-col py-[60px] px-0 gap-5 justify-center items-center">
-            <h1 className="text-5xl font-semibold uppercase">Heard Engoungh?</h1>
+        <main className="flex flex-col py-[60px] px-0 gap-5 justify-center items-center max-[1006px]:px-10">
+            <h1 className="text-5xl font-semibold uppercase max-[580px]:text-center max-[440px]:text-4xl max-[330px]:text-3xl">Heard Engoungh?</h1>
 
-            <hr className="w-[400px] border border-[#02b8dd]" />
+            <hr className="w-[400px] border border-[#02b8dd] max-[440px]:w-[300px] max-[330px]:w-[200px]" />
 
             <p className="text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod leo a nibh dignissim tincidunt. Nam ultricies odio ac neque <br />
