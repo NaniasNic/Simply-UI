@@ -1,7 +1,7 @@
 <article>
   <h1 align='center'>Simply UI</h1>
   
-  <p>UI clone homepage <a href='https://medialoot.com/blog/how-to-code-a-homepage-template-with-html5-and-css3/'>Template</a></p>
+  <p align='center'>UI clone homepage <a href='https://medialoot.com/blog/how-to-code-a-homepage-template-with-html5-and-css3/'>Template</a></p>
 
   <h3>Tecnologias: </h3>
 
